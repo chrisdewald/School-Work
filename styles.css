@@ -1,0 +1,66 @@
+html, body{
+    background-color: grey;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+#page-container {
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+#page-content{
+    padding-top: 50px;
+}
+
+
+/*-------------------------------------*/
+/*Home Page
+/*-------------------------------------*/
+
+#home{
+    width: 55%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#home-title{
+    margin-bottom: 40px;
+}
+
+#home-body{
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+#home-pic img{
+
+    width: 100%;
+    border-radius: 5%;
+    float: center;
+}
+
+/*-------------------------------------*/
+/*Footer
+/*-------------------------------------*/
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: dodgerblue;
+}
+.social-icons{
+    color: black;
+    font-size: 28px;
+}
+
+#socialLinkedin:hover{
+    background-color: whitesmoke;
+    
+}

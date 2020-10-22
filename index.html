@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Assignment 4</title>
+        <link rel = "stylesheet" href = "jquery.mobile-1.4.5.min.css">
+        <script src = "jquery-3.4.1.min.js"> </script>
+        <script src= "userForm.js"></script>
+        <meta name ="viewport"
+        content="width=device-width, intitial-scale=1.0">
+        </head>
+<div data-role="page" id="pageHome">
+    <div data-role = "header">
+<nav>
+    <a href="userinfo.html">Add User Info</a>
+    <a href="aboutpage.html">About</a>
+    <a href="newentry.html">New Entry Page</a>
+</nav>
+
+        <h1>
+    Password To Enter Information
+</h1>
+</div>
+<div data-role="content">
+    Password: <input type = "password" id = "passcode"></input>
+
+<div data-role="controlgroup" id="numKeyPad">
+    <button><a data-role="button" id='btnEnter' type = "submit" onclick="$(btnEnter)">Enter</a></button>
+</div>
+<div data-role= "controlgroup" data-type="horizontal">
+    <button><a data-role= "button" onclick="addValueToPassword(7)">7</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(8)">8</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(9)">9</a></button>
+</div>
+<div data-role= "controlgroup" data-type="horizontal">
+    <button><a data-role= "button" onclick="addValueToPassword(4)">4</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(5)">5</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(6)">6</a></button>
+</div>
+<div data-role= "controlgroup" data-type="horizontal">
+    <button><a data-role= "button" onclick="addValueToPassword(1)">1</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(2)">2</a></button>
+    <button><a data-role= "button" onclick="addValueToPassword(3)">3</a></button>
+</div>
+<div data-role= "controlgroup" data-type="horizontal">
+    <button><a data-role= "button" onclick="addValueToPassword(0)">0</a></button>
+    <button><a data-role= "button" onclick ="addValueToPassword('bksp')" data-icon= "delete">Delete</a></button>
+</div>
+</div>
+</div>
+
+
+
+
+</html>

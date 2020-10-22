@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Assignment 4</title>
+        <link rel = "stylesheet" href = "jquery.mobile-1.4.5.min.css">
+        <script src = "jquery-3.4.1.min.js"> </script>
+        <script src= "userForm.js"></script>
+        <meta name ="viewport"
+        content="width=device-width, intitial-scale=1.0">
+        </head>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="userinfo.html">Add User Info</a>
+                <a href="aboutpage.html">About</a>
+                <a href="newentry.html">New Entry Page</a>
+            </nav>
+<div data-role="page" id="pageUserInfo">
+        <h1>
+            User Information
+        </h1>
+        <div data-role="content">
+            <form id="frmUserForm" action="">
+                <div data-role = "fieldcontain">
+                <label for = "txtFirstName">First Name</label>
+                <input type = "text" placeholder="First Name"
+                name = "txtFirstName" data-mini = "false" 
+                id="txtFirstName" value="" required>
+                </div>
+                <div data-role = "fieldcontain">
+                <label for = "txtLastName">Last Name</label>
+                <input type = "text" placeholder="Last Name"
+                name = "txtLastName" data-mini = "false"
+                id="txtLastName" value="" required>
+                </div>
+                <div data-role = "fieldcontain">
+                <label for = "datBirthdate">Birthdate</label>
+                <input type = "date" placeholder="Birthdate"
+                name = "datBirthdate" data-mini = "false" 
+                id="datBirthdate" value="" required>
+                </div>
+                <div data-role = "fieldcontain">
+                <label for = "txtChangePassword">Edit Password</label>
+                <input type = "text"
+                name = "txtChangePassword" data-mini = "false" id="txtChangePassword" 
+                value="" required>
+                </div>
+                <div data-role = "fieldcontain">
+                <label for = "intPhoneNumber">Phone Number</label>
+                <input type = "int"
+                name = "intPhoneNumber" data-mini = "false" id="intPhoneNumber" 
+                value="" required>
+                </div>
+                <div data-role = "fieldcontain">
+                <label for = "slcGender" class="select">Select Gender</label>
+                <select name="slcGender" id="slcGender" data-mini="false"
+                data-native-menu="false" required>
+                <option>Select Gender</option>
+                <option value = "Male">Male</option>
+                <option value = "Female">Female</option>
+                <option value = "doNotWishToDisclose">Do Not Wish To Disclose</option>
+                </select>
+                </div>
+                <input type = "submit" id="btnUserUpdate" data-icon="check" 
+                data-iconpos="left" value="Update" data-inline = "true">
+                </form>
+            </div>
+            </div>
+</html>
